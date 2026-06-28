@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 520" role="img" aria-label="Memory photo placeholder one">
+  <rect width="700" height="520" fill="#FF63A7"/>
+  <circle cx="170" cy="132" r="130" fill="#F6F1F3" opacity=".34"/>
+  <circle cx="560" cy="420" r="190" fill="#FFBC7D" opacity=".55"/>
+  <path d="M132 338c72-92 142-138 210-138 83 0 159 62 226 186v82H132Z" fill="#fff" opacity=".54"/>
+  <text x="350" y="276" text-anchor="middle" font-family="Georgia, serif" font-size="52" font-weight="700" fill="#fff">Photo 1</text>
+</svg>

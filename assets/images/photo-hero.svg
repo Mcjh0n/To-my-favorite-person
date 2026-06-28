@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-label="Favorite photo placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF398F"/>
+      <stop offset="0.48" stop-color="#FF63A7"/>
+      <stop offset="1" stop-color="#FFBC7D"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="36%" r="58%">
+      <stop offset="0" stop-color="#FFF9FB" stop-opacity=".86"/>
+      <stop offset="1" stop-color="#FFF9FB" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="1200" fill="url(#bg)"/>
+  <rect width="900" height="1200" fill="url(#glow)"/>
+  <circle cx="336" cy="488" r="122" fill="#F6F1F3" opacity=".82"/>
+  <circle cx="544" cy="488" r="122" fill="#F6F1F3" opacity=".72"/>
+  <path d="M198 840c58-152 167-228 327-228 110 0 202 58 277 174v260H198Z" fill="#F6F1F3" opacity=".74"/>
+  <text x="450" y="1030" text-anchor="middle" font-family="Georgia, serif" font-size="74" font-weight="700" fill="#fff">Favorite Photo</text>
+</svg>
