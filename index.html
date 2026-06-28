@@ -11,6 +11,41 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+
+    <!-- Responsive tweak: center the intro panel on small screens -->
+    <style>
+      @media (max-width: 640px) {
+        .intro {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          min-height: 100vh;
+          padding: 1.5rem;
+          box-sizing: border-box;
+        }
+
+        .intro__panel {
+          width: 100%;
+          max-width: 640px;
+          margin: 0;
+          text-align: center;
+        }
+
+        /* If the glow is decorative it can be hidden on very small screens to avoid overlap */
+        .intro__glow {
+          display: none;
+        }
+
+        /* Make sure the button and small text are centered */
+        .intro__small,
+        .intro__copy,
+        .intro__panel .button {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+    </style>
   </head>
   <body>
     <audio id="love-song" src="assets/music/monthsary-song.mp3" loop preload="auto"></audio>
